@@ -27,11 +27,14 @@ body {
 .side-bar {
     padding-left: 5px;
     padding-right: 5px;
+    margin: 10px;
 }
 
-.about {
-    background-color: rgb(241, 241, 241);
-    padding: 10px;
+#about {
+    background-color: rgb(224, 224, 224);
+}
+#about p {
+    font-style: italic;
 }
 
 .section-title {
@@ -72,6 +75,13 @@ body {
 
 #world {
     color: rgb(14, 121, 184);
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 h4 {
