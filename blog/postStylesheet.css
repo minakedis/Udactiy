@@ -1,0 +1,22 @@
+.content-blog-post {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.blog-post {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.side-bar {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+
+#about {
+    background-color: rgb(224, 224, 224);
+}
+#about p {
+    font-style: italic;
+}
